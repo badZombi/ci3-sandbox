@@ -20,15 +20,15 @@
         $body_view = $data['view'];
 
        if ( ! is_null( $body_view ) ){
-          if ( file_exists( VIEWPATH.'/'.$template.'_files/'.$body_view.'.php' ) ) {
-             $body_view_path = $template.'_files/'.$body_view;
+          if ( file_exists( VIEWPATH.'/'.$template.'/'.$body_view.'.php' ) ) {
+             $body_view_path = $template.'/'.$body_view;
           } else {
-             show_error('Unable to load the requested file: ' .$template.'/'.$body_view.'.php');
+             show_error('Unable to load the requested file: *views*/' .$template.'/'.$body_view.'.php');
           }
 
           $data['body'] = $this->ci->load->view($body_view_path, $data, TRUE);
           $data['tpl_path'] = 'templates/'.$template.'/';
-          $data['tpl_files'] = $template.'_files/';
+          $data['tpl_files'] = $template.'/';
 
         } else {
             show_error("You didn't include a view");
