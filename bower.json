@@ -1,0 +1,26 @@
+{
+  "name": "CI3 sandbox project",
+  "version": "0.1.0",
+  "authors": [
+    "John Lund <john.lund@astonishdesign.com>"
+  ],
+  "description": "Testing out a custom setup of CI3.0rc",
+  "keywords": [
+    "codeigniter",
+    "bootstrap",
+    "fontawesome"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "todc-bootstrap": "~3.0.2",
+    "fontawesome": "~4.3.0"
+  }
+}
