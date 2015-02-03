@@ -96,7 +96,7 @@ if (ENVIRONMENT == 'testing') {$config['dev'] = TRUE;}
 |
 */
 
-$config['combine'] = TRUE;
+$config['combine'] = FALSE;
 
 
 /*
@@ -108,7 +108,7 @@ $config['combine'] = TRUE;
 |
 */
 
-$config['minify_js'] = TRUE;
+$config['minify_js'] = FALSE;
 
 
 /*
@@ -120,7 +120,7 @@ $config['minify_js'] = TRUE;
 |
 */
 
-$config['minify_css'] = TRUE;
+$config['minify_css'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
