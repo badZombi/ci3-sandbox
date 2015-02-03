@@ -12,3 +12,5 @@ app/logs/*
 /nbproject/
 
 httpdocs/assets/_components/*
+httpdocs/assets/cache/*
+!httpdocs/assets/cache/.gitkeep

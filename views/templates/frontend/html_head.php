@@ -7,10 +7,7 @@
 
     <title><?= $title ?></title>
 
-    <!-- @TODO: Switch this all over to use an asset manager -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/todc-bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/site.css" rel="stylesheet">
+    <?= $this->carabiner->display('css'); ?>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

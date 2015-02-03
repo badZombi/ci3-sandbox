@@ -27,7 +27,7 @@ class MY_Controller extends CI_Controller {
         if(!in_array($this->uri->segment(1), $dont_remember)){
             //$this->session->set_flashdata('last_page', $this->uri->uri_string());
         }
-        /*
+
         foreach($this->config->item('css') as $css){
             $this->carabiner->css( $css );
         }
@@ -35,7 +35,7 @@ class MY_Controller extends CI_Controller {
         foreach($this->config->item('js') as $js){
             $this->carabiner->js( $js );
         }
-        */
+
 
     }
 
