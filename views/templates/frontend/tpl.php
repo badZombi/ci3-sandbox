@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
+<html lang="en">
     <head>
         <? $this->load->view($tpl_path.'html_head'); ?>
     </head>

@@ -11,4 +11,4 @@ app/logs/*
 /vendor/
 /nbproject/
 
-bower_components/*
+httpdocs/assets/_components/*

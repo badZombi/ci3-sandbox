@@ -20,8 +20,9 @@
     "tests"
   ],
   "dependencies": {
-    "todc-bootstrap": "~3.0.2",
+    "todc-bootstrap": "~3.3.2",
     "fontawesome": "~4.3.0",
-    "todc-select2": "~3.2.0"
+    "todc-select2": "~3.2.0",
+    "todc-datepicker": "https://github.com/todc/todc-datepicker.git"
   }
 }
